@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Showcase</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_single_contact">SingleContactActivity</string>
+    <string name="activity_bar">  Welcome to Showcase</string>
+    <string name="imageView_detail">First activity image available</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity_title">Activity Title</string>
+    <string name="activity_location">Location</string>
+    <string name="activity_description">This is the description of the activity, it can be around 400 characters.</string>
+    <string name="image_count">imageURLS: 7</string>
+    <string name="content_description_splash">ActivityRez Logo</string>
+    <string name="application_name_splash">Items Loading…</string>
+    <string name="application_name_main">Welcome to Showcase</string>
+
+    <string-array name="devices">
+        <item>Windows Phone</item>
+        <item>Android</item>
+        <item>iPhone</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>Windows Phone - is a smart phone operating system developed by Microsoft. It is the successor to Windows
+            Mobile, although it is incompatible with the earlier platform. With Windows Phone, Microsoft created
+            a new user interface, featuring a design language named \"Modern\" (which was formerly known as \"Metro\").
+            Unlike its predecessor, it is primarily aimed at the consumer market rather than the enterprise market.
+            It was first launched in October 2010 with Windows Phone 7.              <!--
+            Windows Phone 8.1, which was released in final
+            form to developers on April 14, 2014 and will be pushed out to all phones running Windows Phone 8 over the
+            coming months, is the latest release of the operating system
+            -->
+        </item>
+        <item>Android - Android is a mobile operating system (OS) based on the Linux kernel that is currently
+            developed by Google. With a user interface based on direct manipulation, Android is designed primarily
+            for touchscreen mobile devices such as smartphones and tablet computers, with specialized user interfaces
+            for televisions (Android TV), cars (Android Auto), and wrist watches (Android Wear). The OS uses touch
+            inputs that loosely correspond to real-world actions, like swiping, tapping, pinching, and reverse pinching
+            to manipulate on-screen objects, and a virtual keyboard.            <!--
+            Despite being primarily designed for touchscreen
+            input, it also has been used in game consoles, digital cameras, and other electronics.
+            As of 2011, Android has the largest installed base of any mobile OS and as of 2013, its devices also sell
+            more than Windows, iOS, and Mac OS devices combined.
+            -->
+        </item>
+        <item>iPhone - iPhone is a line of smart phones designed and marketed by Apple Inc.
+            It runs Apple\'s iOS mobile operating system.  The first generation iPhone was released on June 29,
+            2007; the most recent iPhones, the seventh-generation iPhone 5C and iPhone 5S, were introduced on
+            September 10, 2013.  The user interface is built around the device\'s multi-touch screen, including a
+            virtual keyboard. The iPhone has Wi-Fi and can connect to            <!--
+            many different cellular networks, including
+            1xRTT (represented by a 1x on the status bar) and GPRS (shown as GPRS on the status bar), EDGE (shown
+            as a capital E on the status bar), UMTS and EV-DO (shown as 3G), a faster version of UMTS and 4G (shown
+            as a 4G symbol on the status bar), and LTE (shown as LTE on the status bar).
+            -->
+        </item>
+    </string-array>
+
+    <string name="hello_from_main">Hello from main activity!</string>
+    <string name="title_activity_splash">Splash</string>
+
+</resources>
