@@ -1,5 +1,7 @@
 Showcase-For-Android
 ====================
+view the demo: http://youtu.be/OZvl7Y_t5mk
+
 Android application for displaying activities for ActivityRez, a company based in Honolulu Hawaii.
 The application was authored by Nathan Marder in 2014. This was the author's VERY first Android application, 
 so there may be more efficient methods for accomplishing some of the desired functions. The application author, 
