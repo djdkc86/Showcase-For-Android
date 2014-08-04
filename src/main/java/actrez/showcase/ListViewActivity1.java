@@ -71,6 +71,7 @@ public class ListViewActivity1 extends ListActivity {
      * for feeding data into the ListView element within the Activity_MainOptions
      * activity.
      */
+    /************
     public class ListViewAdapter extends ArrayAdapter<RezObject> {
         ArrayList<RezObject> activitiesToDisplay;
         Context context;
@@ -107,7 +108,7 @@ public class ListViewActivity1 extends ListActivity {
                 holder = (ViewHolder) view.getTag();
             }
             String title = activitiesToDisplay.get(position).getTitle();
-            String location = activitiesToDisplay.get(position).getDest();/*+" image count: "+activitiesToDisplay.get(position).getImageCount();*/
+            String location = activitiesToDisplay.get(position).getDest();//*+" image count: "+activitiesToDisplay.get(position).getImageCount();
             String imageCount = "Images: "+activitiesToDisplay.get(position).getImageCount()+" ";
             String description = activitiesToDisplay.get(position).getDesc();
             holder.txtTitle.setText(title);
@@ -118,5 +119,5 @@ public class ListViewActivity1 extends ListActivity {
             return view;
         }
 
-    }//ends ListViewAdapter inner-class
+    }******/
 }//ends Activity_MainOptions class

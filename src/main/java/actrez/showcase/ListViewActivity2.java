@@ -53,7 +53,7 @@ public class ListViewActivity2 extends ListActivity {
      * This ListViewAdapter extends the ArrayAdapter class, and is responsible
      * for feeding data into the ListView element within the Activity_MainOptions
      * activity.
-     */
+     *
     public class ListViewAdapter extends ArrayAdapter<RezObject> {
         ArrayList<RezObject> activitiesToDisplay;
         Context context;
@@ -90,7 +90,7 @@ public class ListViewActivity2 extends ListActivity {
                 holder = (ViewHolder) view.getTag();
             }
             String title = activitiesToDisplay.get(position).getTitle();
-            String location = activitiesToDisplay.get(position).getDest();/*+" image count: "+activitiesToDisplay.get(position).getImageCount();*/
+            String location = activitiesToDisplay.get(position).getDest();/*+" image count: "+activitiesToDisplay.get(position).getImageCount();*
             String imageCount = "Images: "+activitiesToDisplay.get(position).getImageCount()+" ";
             String description = activitiesToDisplay.get(position).getDesc();
             holder.txtTitle.setText(title);
@@ -102,5 +102,5 @@ public class ListViewActivity2 extends ListActivity {
         }
 
 
-    }//ends ListViewAdapter inner-class
+    }//ends ListViewAdapter inner-class*/
 }//ends Activity_MainOptions class
